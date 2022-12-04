@@ -1,0 +1,562 @@
+body{
+    margin: 0;
+    background-image: url(./img/galexy.webp);
+    background-repeat: round;
+}
+
+.header{
+    width: 100%;
+    height: 85px;
+    background-color: black;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.icon{
+    width: 14%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 2%;
+}
+#amd{
+    width: 100%;
+    height: 100%;
+    margin-left: 7%;
+    cursor: pointer;
+}
+
+.menu{
+    width: 35%;
+    height: 100%;
+    display: flex;
+}
+
+.men-1{
+    width: 22%;
+    height: 100%;
+    margin-left: 1%;
+    box-sizing: border-box;
+    padding-top: 6%;
+    padding-left: 5%;
+    font-weight: bold;
+    color: #fff;
+}
+.men-2{
+    width: 30%;
+    height: 100%;
+    margin-left: 1%;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding-top: 6%;
+    color: #fff;
+}
+.menu b:hover{
+    text-decoration: underline 2px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.header-end{
+    width: 20%;
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+}
+.end-1{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-top: 10%;
+}
+#end-icn-1{
+    width: 22%;
+    height: 54%;
+    margin-left: 50%;
+    cursor: pointer;
+}
+#end-icn-2{
+    width: 18%;
+    height: 48%;
+    cursor: pointer;
+}
+
+
+.body1{
+    width: 100%;
+    height: 470px;
+    background-image: url(./img/ceo.webp);
+    background-size: cover;
+    padding: 8% 51% 4% 5%;
+    box-sizing: border-box;
+}
+
+.body1-cont{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.499);
+    border-radius: 1%;
+}
+.body1-cont-txt{
+    width: 100%;
+    height: 75%;
+}
+
+.body1-txt-head{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 200%;
+    padding-top: 5%;
+    padding-left: 2%;
+    font-weight: bold;
+}
+.body1-txt-para{
+    width: 100%;
+    height: 50%;
+    color: #fff;
+    font-size: 125%;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
+.body1-cont-btn{
+    width: 30%;
+    height: 15%;
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    padding: 1.5%;
+    padding-left: 4%;
+}
+.body1-cont-btn:hover{
+    background: rgba(255, 255, 255, 0.451);
+    border-color: #000;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.body2{
+    width: 100%;
+    height: 470px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+.body2-cont{
+    width: 32%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    margin-left: 1%;
+}
+
+.body2-cont-img{
+    width: 100%;
+    height: 70%;
+    background:rgb(255, 255, 255);
+    overflow: hidden;
+}
+.r9{
+    width: 90%;
+    height: fit-content;
+    margin-top: 3%;
+}
+
+
+.body2-cont-txt{
+    width: 100%;
+    height: 10%;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    font-weight: lighter;
+}
+
+.body2-cont-txt2{
+    width: 100%;
+    height: 10%;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+.body2-cont-txt2 a{
+    text-decoration: none;
+    color: #0070c9;
+}
+.body2-cont-btn{
+    width: 40%;
+    height: 8%;
+    margin-left: 31%;
+    background: rgb(255, 255, 255);
+    border: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 1%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+}
+.body2-cont-btn:hover{
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+
+.body3{
+    width: 100%;
+    height: 361px;
+    background-image: url(./img/pixar-banner.webp);
+    overflow: hidden;
+    background-size: 100% 109%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 4% 4% 2% 52%;
+}
+.body3-cont{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.53);
+    display: block;
+    box-sizing: border-box;
+    border-radius: 2%;
+    padding-left: 3%;
+}
+.body3-cont-txt{
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+
+}
+.body3-cont-txt1{
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 3%;
+    padding-left: 0;
+    padding-top: 6%;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;;
+}
+.body3-cont-txt2{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    text-align: left;
+    font-family: "Klavika Light Condensed",arial,sans-serif;
+    font-size: larger;
+    color: #fff;
+}
+
+.body3-cont-btn{
+    width: 25%;
+    height: 15%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 2%;
+    border: 2px solid white;  
+    font-family: "Klavika Medium Condensed",arial,sans-serif;  
+}
+.body3-cont-btn:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.37);
+    border-color: #000;
+    transition: 400ms;
+}
+
+.body4{
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 5%;
+    display: flex;
+}
+
+.body4-cont{
+    width: 50%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+.body4-cont-img{
+    width: 100%;
+    height: 50%;
+    padding: 4%;
+}
+#chip{
+    width: 100%;
+    height: 100%;
+}
+#inst{
+    width: 91%;
+    height: 100%;
+}
+.body4-cont-txt{
+    width: 100%;
+    height: 30%;
+}
+
+.heading{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: x-large;
+    padding-left: 5%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+}
+.para{
+    width: 100%;
+    height: 60%;
+    padding-left: 5%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    font-stretch: extra-expanded;
+    font-size: 115%;
+}
+
+.body4-cont-btn{
+    width: 25%;
+    height: 7%;
+    margin-left: 6%;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 4%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;;
+}
+.body4-cont-btn:hover{
+    color: #fff;
+    background: #000;
+}
+
+.body5{
+    width: 100%;
+    height: 510px;
+    display: flex;
+}
+.body5-cont{
+    width: 50%;
+    height: 100%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#xt{
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.body5-cont-inner{
+    width: 90%;
+    height: 80%;
+    margin: 10% 5%;
+    background: rgba(0, 0, 0, 0.721);
+    border-radius: 2%;
+}
+
+.body5-cont-inner-txt{
+    width: 100%;
+    height: 40%;
+}
+.inner-head{
+    width: 100%;
+    height: 60%;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    font-size: 180%;
+    box-sizing: border-box;
+    padding: 2%;
+    padding-left: 2%;
+    font-stretch: extra-expanded;
+}
+.inner-para{
+    width: 100%;
+    height: 40%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    padding-left: 2%;
+    padding-top: 2%;
+    font-size: 97%;
+    font-weight: 300;
+    font-stretch: extra-expanded;
+}
+
+.body5-cont-inner-img{
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    padding: 2%;
+    padding-top: 3%;
+}
+.body5-cont-inner-btn{
+    width: 29%;
+    height: 11%;
+    margin: 2%;
+    font-family: "Klavika Medium Condensed",arial,sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 1.5%;
+    padding-left: 5%;
+    border: 2px solid white;
+
+}
+.body5-cont-inner-btn:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.37);
+    border-color: rgba(255, 255, 255, 0.37);
+}
+
+.footnotes{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 600px;
+    background: #000;
+    box-sizing: border-box;
+    padding: 1% 6% 1% 6%;
+}
+.footer-head{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+}
+.footer-head-cont1{
+    width: 30%;
+    height: 100%;
+    border-bottom:1px solid #626971;
+    font-weight: bolder;
+    color: #fff;
+    box-sizing: border-box;
+    padding-top: 1%;
+    display: flex;
+}
+
+.arrow{
+    width: 12px;
+    height: 12px;
+    margin-left: 22%;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    transition: 300ms;
+}
+.arrow:hover{
+    cursor: pointer;
+    transform: rotate(-135deg);
+    transition: 300ms;
+}
+
+.footer-head-cont2{
+    width: 40%;
+    height: 100%;
+    margin-left: 30%;
+    box-sizing: border-box;
+    padding: 0% 1.5% 0% 1.5%;
+    display: flex;
+}
+.media{
+    width: 15%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.fb{
+    width: 40%;
+    height: 45%;
+    cursor: pointer;
+}
+
+.footer-body{
+    width: 100%;
+    height: 65%;
+    margin-top: 1%;
+    display: flex;
+    
+}
+.footer-body-1{
+    width: 20%;
+    height: 100%;
+    text-align: left;
+}
+.footer-body-1 h3{
+    margin-left: 25%;
+    margin-top: 25%;
+    color: #fff;
+}
+.footer-body-1 ul{
+    list-style: none;
+    margin-left: 10%;
+    color: #626971;
+}
+.footer-body-1 li{
+    margin-top: 7%;
+}
+.footer-body-1 li:hover{
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+
+.footer-end{
+    width: 100%;
+    height: 25%;
+    background-color: #000000;
+    box-sizing: border-box;
+}
+.footer-end-1{
+    width: 100%;
+    height: 50%;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 15%;
+}
+.footer-end-1 ul{
+    list-style: none;
+    display: flex;
+    color: #626971;
+}
+.footer-end-1 li:hover{
+    color: #fff;
+    text-decoration: underline 1px;
+    transition: 300ms;
+    cursor: pointer;
+}
+.footer-end-2{
+    width: 100%;
+    height: 50%;
+    color: #626971;
+    text-align: center;
+}
